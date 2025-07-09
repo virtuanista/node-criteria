@@ -158,7 +158,7 @@ El tiempo de generación depende del modelo, el hardware y la longitud de la res
 - `DocumentationGenerator`: Genera y guarda la documentación en formato markdown
 - `ContentEnhancer`: Interfaz con Ollama para generación de contenido con IA
 
-## Personalización del estilo de la respuesta
+### Personalización del estilo de la respuesta
 
 Si deseas modificar el estilo, la estructura o el tono de las respuestas generadas, puedes hacerlo editando el prompt en el archivo:
 

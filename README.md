@@ -1,11 +1,3 @@
-## 🎨 Personalización del estilo de la respuesta
-
-Si deseas modificar el estilo, la estructura o el tono de las respuestas generadas, puedes hacerlo editando el prompt en el archivo:
-
-- `src/content_enhancer.py` → método `enhance_summary()`
-
-Allí puedes ajustar la plantilla, los encabezados, la longitud, el nivel de detalle o cualquier instrucción para el modelo de IA según tus preferencias.
-
 # 📚 Explicar un concepto con un modelo local y guardarlo markdown
 
 Genera una explicación profesional y estructurada sobre cualquier término o concepto en formato markdown, utilizando únicamente modelos de inteligencia artificial locales. El sistema no depende de servicios externos: el contenido es generado por IA, aportando una plantilla clara y homogénea del propio concepto como resultado final. Ideal para herramientas como Obsidian.
@@ -165,6 +157,14 @@ El tiempo de generación depende del modelo, el hardware y la longitud de la res
 
 - `DocumentationGenerator`: Genera y guarda la documentación en formato markdown
 - `ContentEnhancer`: Interfaz con Ollama para generación de contenido con IA
+
+## Personalización del estilo de la respuesta
+
+Si deseas modificar el estilo, la estructura o el tono de las respuestas generadas, puedes hacerlo editando el prompt en el archivo:
+
+- `src/content_enhancer.py` → método `enhance_summary()`
+
+Allí puedes ajustar la plantilla, los encabezados, la longitud, el nivel de detalle o cualquier instrucción para el modelo de IA según tus preferencias.
 
 ### Agregar nuevos modelos
 
